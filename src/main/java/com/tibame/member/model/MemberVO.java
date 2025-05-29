@@ -2,7 +2,7 @@ package com.tibame.member.model;
 
 public class MemberVO {
 	private Integer memId;
-	private String ooo;
+	private String xxx;
 	
 	public MemberVO() {
 		super();
@@ -10,8 +10,9 @@ public class MemberVO {
 	public MemberVO(Integer memId, String memName) {
 		super();
 		this.memId = memId;
-		this.ooo = memName;
+		this.xxx = memName;
 	}
+
 	public Integer getMemId() {
 		return memId;
 	}
@@ -19,10 +20,10 @@ public class MemberVO {
 		this.memId = memId;
 	}
 	public String getMemName() {
-		return ooo;
+		return xxx;
 	}
 	public void setMemName(String memName) {
-		this.ooo = memName;
+		this.xxx = memName;
 	}
 	
 }
